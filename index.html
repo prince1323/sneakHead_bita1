@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShoeShell: Morden Age Sneaker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <nav>
+        <div class="hambuger" onclick="hamMenu()">
+            <div class="ham1 ham"></div>
+            <div class="ham2 ham"></div>
+        </div>
+        <ul class="list">
+            <li class="list-item" onclick="window.location.replace('index.html')">Home</li>
+            <li class="list-item">Mens Sneaker</li>
+            <li class="list-item">Women Sneaker</li>
+            <li class="list-item">Teens Collection <sup>NEW</sup></li>
+            <li class="list-item">New Arrivals</li>
+            <li class="list-item">Custom Zone</li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="welcome-section">
+            <img id="wel-img" src="./assets/image/image1-png.png" alt="" srcset="">
+            <div class="wel-text">
+                <h1 class="wel-disc"><span>Sneak</span>HEAD</h1>
+                <h2 class="wel-disc">We bring the best and modern designs</h2>
+                <h2 class="wel-disc">A mordern day <span>GEN-Z</span> brand</h2>
+            </div>
+            <div class="entry-btn" onclick="expand()">
+                <h3>Enter</h3>
+            </div>
+            <div class="wel-strip">
+                <span>modern design</span><span>funcky sneakers</span><span>new world gen-z brand</span><span>high
+                    quality material</span><span>one stop place</span><span>explore more</span><span>modern
+                    design</span><span>funcky sneakers</span><span>new world gen-z brand</span><span>high quality
+                    material</span><span>one stop place</span><span>explore more</span><span>modern
+                    design</span><span>funcky sneakers</span><span>new world gen-z brand</span><span>high quality
+                    material</span><span>one stop place</span><span>explore more</span>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="section1">
+
+            <video class="sec1-video" autoplay muted loop
+                src="./assets/video/pexels-cottonbro-6764404 (1080p) (2).mp4"></video>
+            <img class="sec1-img1" src="./assets/image/bg2i-removebg-preview.png" alt="">
+            <img class="sec1-img2" src="./assets/image/image1-png.png" alt="">
+
+            <div class="sec1-text">
+                <h1><span>Mordern</span> <span>Brand</span> <span>Collebarations</span></h1>
+            </div>
+
+            <div class="hoverer" onclick="expand2()">
+                <h2>Collabs</h2>
+            </div>
+
+
+        </section>
+
+        <section class="section2">
+
+            <div class="guide">
+                click! on the brand you want to explore!
+            </div>
+
+            <div>
+                <img src="./assets/image/brands/Nike-logo.webp" alt="" onclick="window.open('https://www.nike.com/in/')">
+            </div>
+
+            <div>
+                <img src="./assets/image/brands/puma.jpg" alt="" onclick="window.open('https://in.puma.com/in/en')">
+            </div>
+            
+            <div>
+                <img src="./assets/image/brands/adidas-logo.webp" alt=""
+                onclick="window.open('https://www.adidas.co.in/')">
+            </div>
+            <div>
+                <img src="./assets/image/brands/bata.avif" alt="" onclick="window.open('https://www.bata.com/in/')">
+            </div>
+            <div>
+                <img src="./assets/image/brands/sparks.jpg" alt="" onclick="window.open('https://www.relaxofootwear.com/collection/brand-sparx')" >
+            </div>
+            <div>
+                <img src="./assets/image/brands/reebok.jpg" alt=""
+                onclick="window.open('https://reebok.abfrl.in/')">
+            </div>
+
+            <div class="director">
+                <h2>scroll</h2>
+                <img class="down-arrow" height="30px" width="30px" src="./assets/image/brands/icons8-down-arrow-64.png" alt="" srcset="">
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js" async></script>
+</body>
+
+</html>
